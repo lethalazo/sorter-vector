@@ -1,10 +1,10 @@
 # sorter-vector
-A sorter in C++ that utilizes the power of vectors.
+A sorter and searcher in C++ that utilizes the power of vectors.
 
-A Not so elegant C++ sorting program that I developed, during a 'eureka' moment to make better use of vectors, in 30 mins, in the middle of the night.
+A Not so elegant C++ sorting and searching program that I developed, during a 'eureka' moment to make better use of vectors, in 30 mins, in the middle of the night.
 (took me another 30mins to put in the comments)
 
-The algorithm basically is: if the element is bigger or equal to the element in the vector, push it back in the vector.
+The sorting algorithm basically is: if the element is bigger or equal to the element in the vector, push it back in the vector.
 
 Else go to the checker function, which does this:
 
@@ -13,3 +13,5 @@ Else go to the checker function, which does this:
 2. If it is bigger than the element in the vector, insert it after it.
 
 (else) keep doing the above over again with all the other elements in the vector by recurring the checker function.
+
+For searching, I used binary search.
